@@ -6,7 +6,7 @@ Driven by an unwavering passion for technology, I am now steering my career path
 
 I am committed to continuous learning and growth in this dynamic field. With each line of code, I am inching closer to my ambition of becoming a skilled Full Stack Developer. I eagerly embrace challenges, relishing the opportunity to contribute meaningfully to the ever-evolving tech landscape.
 - 💞️ I am enthusiastic about the limitless possibilities this journey presents and am eager to make a significant impact through my dedication and perseverance in becoming a proficient Full Stack Developer.
-- 📫 nandhinithirunavukkarasu02@gmail.com
+- 📫 rtnandhutee@gmail.com
 
 <!---
 NandhuTee/NandhuTee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
