@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi+ There! +👋 |I'm +Nandhu" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi!+There!+I'm+Nandhu" alt="Typing SVG" /></a>
 </h1>
 
 - 👋 Hi, I’m @NandhuTee I'm Nandhini, an ambitious individual on a mission to become a proficient Full Stack Developer. I hold a strong academic background, having completed my Master's degree in Computer Applications (MCA) and further pursued an advanced Master of Technology (MTech) degree.
