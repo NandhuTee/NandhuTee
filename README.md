@@ -9,6 +9,7 @@ I am committed to continuous learning and growth in this dynamic field. With eac
 - 📫 rtnandhutee@gmail.com
 
 - [![Nan's GitHub stats](https://github-readme-stats.vercel.app/api?username=NandhuTee)](https://github.com/anuraghazra/github-readme-stats)
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NandhuTee&layout=pie)](https://github.com/NndhuTee/github-readme-stats)
 
 <!---
 NandhuTee/NandhuTee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
