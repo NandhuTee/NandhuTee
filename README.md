@@ -1,3 +1,5 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.sales07"/>
+
 - 👋 Hi, I’m @NandhuTee I'm Nandhini, an ambitious individual on a mission to become a proficient Full Stack Developer. I hold a strong academic background, having completed my Master's degree in Computer Applications (MCA) and further pursued an advanced Master of Technology (MTech) degree.
 - 👀 My professional journey has been marked by diverse experiences. With three years as an Industrial Trainer and three years as an Assistant Professor, I've cultivated a solid foundation in teaching and guiding individuals within the realms of technology and education.
 
