@@ -8,6 +8,8 @@ I am committed to continuous learning and growth in this dynamic field. With eac
 - 💞️ I am enthusiastic about the limitless possibilities this journey presents and am eager to make a significant impact through my dedication and perseverance in becoming a proficient Full Stack Developer.
 - 📫 rtnandhutee@gmail.com
 
+- [![Nan's GitHub stats](https://github-readme-stats.vercel.app/api?username=NandhuTee)](https://github.com/anuraghazra/github-readme-stats)
+
 <!---
 NandhuTee/NandhuTee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
