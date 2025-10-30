@@ -1,0 +1,19 @@
+name: Update Profile README
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs once daily at midnight
+  workflow_dispatch: # Manual trigger support
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats
+        uses: teoxoy/profile-readme-stats@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
