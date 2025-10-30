@@ -4,19 +4,24 @@
 <h1 align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi!+There!+I'm+Nandhu" alt="Typing SVG" /></a>
 </h1>
-👋 Hi, I’m Nandhini (@NandhuTee), a passionate Full Stack Developer with a solid academic background (MCA & MTech). I have experience as an Industrial Trainer and Assistant Professor, and I'm now focused on mastering both front-end and back-end technologies.
+👋 Hi, I’m Nandhini (@NandhuTee) — a passionate Full Stack Developer with a strong academic foundation (MCA & MTech).
+With experience as an Industrial Trainer and Assistant Professor, I’m now focused on mastering frontend and backend technologies to build impactful web applications.
 
-I gained hands-on experience in Reactjs ,Node.js and the MERN stack through structured training at Newton School and Edu Pi School(2023-2025). During my learning, I completed several guided and independent projects, including:
+🌱 Currently:
 
-🧳 EaseMyTrip Clone – Full-stack project using MongoDB, Express.js, React.js, and Node.js. Implemented features like user login, flight/hotel booking, and search filters.
+Revising the Full Stack Developer course on freeCodeCamp
 
-🐦 Twitter Clone – Created with React and Node.js, focusing on backend routes, authentication, and post management using MongoDB.
+Working as a Web Developer Intern
 
-🎯 Completed multiple tasks involving API creation, RESTful routes, and integrating frontend with backend logic.
+Enhancing my skills in React, Node.js, and MongoDB
 
-These experiences strengthened my practical understanding of both frontend (React) and backend (Node/Express/MongoDB) development. I’m confident in building scalable web applications using the MERN stack.
+💡 Learning & Sharing:
+I actively engage in the Reactiflux Discord community and contribute blogs on Dev.to.
+I’ve also started a YouTube channel where I post short tutorials and explain web development concepts in an easy-to-understand way.
 
-Open to collaboration on innovative projects!
+💬 Ask me about: React.js, Next.js, Node.js, Express.js, MongoDB, REST APIs
+🤝 Open to: Collaborations on innovative projects, internships, and open-source contributions
+⚡ Fun fact: I spend about 1 hour daily exploring new technologies, creating content, and helping others learn — it keeps me motivated and creative!
 
 - [![Nan's GitHub stats](https://github-readme-stats.vercel.app/api?username=NandhuTee)](https://github.com/anuraghazra/github-readme-stats)
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NandhuTee&langs_count=8)
