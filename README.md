@@ -4,8 +4,7 @@
 <h1 align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&random=false&width=435&lines=Hi!+There!+I'm+Nandhu" alt="Typing SVG" /></a>
 </h1>
-# 🖋 Typing SVG  
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&width=700&lines=Crafting+Seamless+Web+Experiences;Full+Stack+Developer+%7C+React+%7C+Node+%7C+MongoDB;Educator+%26+Lifelong+Learner;Building+Smart+Web+Solutions+with+MERN)
+# (https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&width=700&lines=Crafting+Seamless+Web+Experiences;Full+Stack+Developer+%7C+React+%7C+Node+%7C+MongoDB;Educator+%26+Lifelong+Learner;Building+Smart+Web+Solutions+with+MERN)
 
 ---
 
