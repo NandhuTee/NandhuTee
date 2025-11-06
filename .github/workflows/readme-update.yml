@@ -1,4 +1,4 @@
-name: Update README
+name: Update Profile README
 
 on:
   schedule:
@@ -9,6 +9,11 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: teoxoy/profile-readme-stats@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update GitHub Stats
+        uses: teoxoy/profile-readme-stats@v2
         with:
           token: ${{ secrets.PERSONAL_TOKEN }}
+          readme-path: ./README.md
