@@ -58,7 +58,7 @@ I spend about **1 hour daily** exploring new technologies, creating tutorials, a
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NandhuTee&layout=compact&theme=tokyonight)
 
 ---
-
+![Snake animation](https://raw.githubusercontent.com/NandhuTee/NandhuTee/output/github-contribution-grid-snake.svg)
 <!---
 NandhuTee/NandhuTee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
