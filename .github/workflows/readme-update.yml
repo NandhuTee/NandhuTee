@@ -1,69 +1,40 @@
-name: Update Profile README
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # Every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  update-readme:
+  snake:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
 
     steps:
-      # Checkout repository
-      - name: Checkout repository
+      - name: Checkout Repo
         uses: actions/checkout@v4
 
-      # Setup Node
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "18"
-
-      # Generate GitHub Stats
-      - name: Generate GitHub Stats
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          username: NandhuTee
-          theme: tokyonight
-          show_icons: true
-
-      # Generate Top Languages
-      - name: Generate Top Languages
-        uses: anuraghazra/github-readme-stats@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          username: NandhuTee
-          layout: compact
-          theme: tokyonight
-
-      # Generate Snake Animation
       - name: Generate Snake
-        uses: Platane/snk@v3
+        uses: Platane/snk@v3.2.0
         with:
           github_user_name: NandhuTee
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg
 
-      # Copy snake files
-      - name: Copy Snake Files
+      - name: Copy Files
         run: |
           cp dist/github-snake.svg .
           cp dist/github-snake-dark.svg .
 
-      # Commit and Push
-      - name: Commit and Push
+      - name: Commit & Push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "📈 Auto update README" || echo "No changes"
+          git commit -m "🐍 Update snake animation" || echo "No changes"
           git push
