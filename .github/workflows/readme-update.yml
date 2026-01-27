@@ -2,7 +2,7 @@ name: Update Profile README
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 6 hours (more efficient)
+    - cron: "0 */6 * * *"  # Every 6 hours
   workflow_dispatch:
   push:
     branches:
@@ -16,20 +16,29 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Update GitHub Stats
-        uses: anuraghazra/github-readme-stats@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Update GitHub Stats Card
+        uses: anuraghazra/github-readme-stats@latest  # FIXED: Changed from v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: NandhuTee
           theme: tokyonight
           show_icons: true
           hide_rank: false
+          hide_title: false
           line_height: 20
           disable_animations: false
+          border_radius: 8
 
-      - name: Update Top Languages
-        uses: anuraghazra/github-readme-stats@v5
+      - name: Update Top Languages Card
+        uses: anuraghazra/github-readme-stats@latest  # FIXED: Changed from v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: NandhuTee
@@ -37,17 +46,30 @@ jobs:
           hide_border: false
           layout: compact
           card_width: 400
+          hide_title: false
+          border_radius: 8
 
-      - name: Generate Snake Game
+      - name: Generate Snake Game Animation
         uses: Platane/snk@v3
         with:
           github_user_name: NandhuTee
-          outputs: dist/github-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Push to repository
+      - name: Add Snake to README
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m "docs: Update README stats"
+          # Copy the generated snake to README directory
+          cp dist/github-contribution-grid-snake.svg .
+          cp dist/github-contribution-grid-snake-dark.svg .
+          cp dist/ocean.gif .
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md *.svg *.gif 2>/dev/null || true
+          git add -u
+          git commit -m "📈 Update README with latest stats" || echo "No changes to commit"
           git push
