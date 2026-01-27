@@ -2,7 +2,7 @@ name: Update Profile README
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # Every 6 hours
+    - cron: "0 */6 * * *"   # Every 6 hours
   workflow_dispatch:
   push:
     branches:
@@ -11,65 +11,59 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
+      # Setup Node
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: "18"
 
-      - name: Update GitHub Stats Card
-        uses: anuraghazra/github-readme-stats@latest  # FIXED: Changed from v5
+      # Generate GitHub Stats
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: NandhuTee
           theme: tokyonight
           show_icons: true
-          hide_rank: false
-          hide_title: false
-          line_height: 20
-          disable_animations: false
-          border_radius: 8
 
-      - name: Update Top Languages Card
-        uses: anuraghazra/github-readme-stats@latest  # FIXED: Changed from v5
+      # Generate Top Languages
+      - name: Generate Top Languages
+        uses: anuraghazra/github-readme-stats@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: NandhuTee
-          theme: tokyonight
-          hide_border: false
           layout: compact
-          card_width: 400
-          hide_title: false
-          border_radius: 8
+          theme: tokyonight
 
-      - name: Generate Snake Game Animation
+      # Generate Snake Animation
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: NandhuTee
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Add Snake to README
+      # Copy snake files
+      - name: Copy Snake Files
         run: |
-          # Copy the generated snake to README directory
-          cp dist/github-contribution-grid-snake.svg .
-          cp dist/github-contribution-grid-snake-dark.svg .
-          cp dist/ocean.gif .
+          cp dist/github-snake.svg .
+          cp dist/github-snake-dark.svg .
 
-      - name: Commit and Push Changes
+      # Commit and Push
+      - name: Commit and Push
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md *.svg *.gif 2>/dev/null || true
-          git add -u
-          git commit -m "📈 Update README with latest stats" || echo "No changes to commit"
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "📈 Auto update README" || echo "No changes"
           git push
