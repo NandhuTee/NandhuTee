@@ -20,6 +20,7 @@ I have experience as an **Industrial Trainer** and **Assistant Professor**, and 
 - Working as a **Web Developer Intern**, applying skills in real-world projects.  
 - Practicing **React**, **Node.js**, **Express**, and **MongoDB** daily.  
 - Exploring **AI tools** and integrating them into web workflows.
+- Improving typing speed and accuracy by practicing on [Typing.com](https://www.typing.com/student/achievements#badges) and tracking achievements.
 
 ---
 
