@@ -20,7 +20,7 @@ I have experience as an **Industrial Trainer** and **Assistant Professor**, and 
 
 ## 🌱 Currently
 - Revising the **Full Stack Developer** course on [freeCodeCamp](https://www.freecodecamp.org).  
-- Working as a **Web Developer Intern**, applying skills in real-world projects.  
+- Working as a **Frontend Developer Intern**, applying skills in real-world projects.  
 - Practicing **React**, **Node.js**, **Express**, and **MongoDB** daily.  
 - Exploring **AI tools** and integrating them into web workflows.
 - Improving typing speed and accuracy by practicing on [Typing.com](https://www.typing.com) and tracking achievements.
