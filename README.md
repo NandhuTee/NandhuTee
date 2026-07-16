@@ -19,7 +19,7 @@ I have experience as an **Industrial Trainer** and **Assistant Professor**, and 
 ---
 
 ## 🌱 Currently
- -Develop Python prototypes, implement research algorithms, analyze data, and validate software solutions
+
 - Revising the **Full Stack Developer** course on [freeCodeCamp](https://www.freecodecamp.org).  
  - Working as a **Freelance Frontend Developer**, applying skills in real-world projects.
  - Working as a Junior Research and Development Programmer, developing Python prototypes, implementing research algorithms, analyzing data, writing journal papers, and validating software solutions. 
