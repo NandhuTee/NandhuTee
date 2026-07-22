@@ -10,8 +10,8 @@
 
 ## 👋 Hi, I’m Nandhini ([@NandhuTee](https://github.com/NandhuTee))
 
-I am a passionate **AI-Enhanced Full Stack Developer** with a strong academic background (**MCA & MTech**).  
-I have experience as an **Industrial Trainer** and **Assistant Professor**, and I’m now focused on mastering modern front-end and back-end technologies to build scalable and intelligent web applications using the **MERN** stack.
+I am a passionate **AI-Enhanced Full Stack Developer** with a strong academic background (**MCA & M.Tech**) and professional experience as an **Industrial Trainer** and **Assistant Professor**. My current focus is on **React**, **Python**, **Node.js**, full-stack web development, and building intelligent software solutions.
+
 
 🌐 **Portfolio:** https://nandhini-portfolio-seven.vercel.app/
 
