@@ -55,7 +55,7 @@ I spend about **1 hour daily** exploring new technologies, creating tutorials, a
 ---
 
 ## 📫 Connect with me
-📧 Email: [rtnandhutee@gmail.com](mailto:rtnandhutee@gmail.com)  
+📧 Email: [rtnandhinitee@gmail.com](mailto:rtnandhinitee@gmail.com)  
 
 ---
 
