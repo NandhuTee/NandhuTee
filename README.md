@@ -21,12 +21,12 @@ I am a passionate **AI-Enhanced Full Stack Developer** with a strong academic ba
 ## 🌱 Currently
 
 - Revising the **Full Stack Developer** course on [freeCodeCamp](https://www.freecodecamp.org/nandhinitee).  
- - Working as a **Freelance Frontend Developer**, applying skills in real-world projects.
- - Working as a Junior Research and Development Programmer, developing Python prototypes, implementing research algorithms, analyzing data, writing journal papers, and validating software solutions. 
-- Practicing **React**, **Node.js**, **Express**, and **MongoDB** daily.  
+- Working as a **Freelance Frontend Developer**, applying skills in real-world projects.
+- Working as a Junior Research and Development Programmer, developing Python prototypes, implementing research algorithms, analyzing data, writing journal papers, and validating software solutions. 
+- Practicing **React**, **Node.js**, **Express** ,**MongoDB** and **Python** daily.  
 - Exploring **AI tools** and integrating them into web workflows.
-- Improving typing speed and accuracy by practicing on [Typing.com](https://www.typing.com) and tracking achievements.
-- Playing [chess](https://www.chess.com/member/Nandhu_T) to strengthen strategic thinking and problem-solving skills.  
+- Participating in **Kaggle Community** challenges to strengthen my Python, data analysis, and problem-solving skills.
+- Participating in **DEV Community** challenges and developer activities.
   
 
 ---
@@ -37,6 +37,12 @@ I actively participate in developer communities and create educational content:
 - 💬 Participating in **Reactiflux Discord** discussions  
 - 🎥 Posting short tutorials and walkthroughs on **YouTube**
 
+---
+## 🧠 Habits & Interests
+
+- ⌨️ Improving typing speed and accuracy by practicing on [**Typing.com**](https://www.typing.com/) and tracking achievements.
+- ♟️ Playing [**chess**](https://www.chess.com/member/Nandhu_T) to strengthen strategic thinking and problem-solving skills.
+  
 ---
 
 ## 💬 Ask me about
